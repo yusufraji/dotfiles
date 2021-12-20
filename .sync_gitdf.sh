@@ -11,6 +11,6 @@ then
     gitdf commit -m "Last sync: $(date +"%Y-%m-%d %H:%M:%S")"
     gitdf pull --rebase
     sleep 5
-    gitdf push
+    gitdf push remote origin
 
 fi
