@@ -59,3 +59,6 @@ alias relbash='source ~/.bashrc'
 
 # Set dotfile git config alias
 alias gitdf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Open notes vscode workspace
+alias notes='code $HOME/Documents/notes/dendron.code-workspace'

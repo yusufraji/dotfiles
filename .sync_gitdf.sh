@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
 gitdfstatus="$(gitdf status --porcelain | wc -l)"
 
 if [ "$gitdfstatus" -ne 0 ]
