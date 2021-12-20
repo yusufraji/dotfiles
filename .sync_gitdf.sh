@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
+alias gitdf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 gitdfstatus="$(gitdf status --porcelain | wc -l)"
 
