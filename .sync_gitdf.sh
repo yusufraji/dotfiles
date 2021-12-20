@@ -2,6 +2,10 @@
 
 alias gitdf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
 gitdfstatus="$(gitdf status --porcelain | wc -l)"
 
 if [ "$gitdfstatus" -ne 0 ]
