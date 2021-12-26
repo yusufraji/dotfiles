@@ -129,10 +129,10 @@ export PATH=${HOME}/gn:"$PATH"
 # export PATH="$ZEPHYR_BASE/bin:$PATH"
 export GNUARMEMB_TOOLCHAIN_PATH="$HOME/gnuarmemb/"
 export PATH="$GNUARMEMB_TOOLCHAIN_PATH/bin:$PATH"
+export PATH="$HOME/.cabal/bin/pandoc"
 export PATH=/home/yusufraji/gn:/home/yusufraji/.local/bin:/home/yusufraji/.pyenv/plugins/pyenv-virtualenv/shims:/home/yusufraji/.npm-global/bin:/home/yusufraji/.npm-global/bin:/home/yusufraji/.pyenv/shims:/home/yusufraji/.local/bin:/home/yusufraji/bin:/home/yusufraji/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/yusufraji/nRF52/gcc-arm/bin
 eval "$(pandoc --bash-completion)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH="$HOME/.cabal/bin/pandoc"
