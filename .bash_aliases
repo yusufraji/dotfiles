@@ -67,4 +67,4 @@ alias notes='code $HOME/Documents/notes/dendron.code-workspace'
 alias gits='git status'
 
 # Launch Obsidian
-alias obsd='/$HOME/Documents/Obsidian-0.12.19.AppImage'
+alias obsd='$HOME/Documents/Obsidian-0.12.19.AppImage'
