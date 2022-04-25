@@ -139,4 +139,4 @@ export NVM_DIR="$HOME/.nvm"
 
 complete -C /usr/bin/terraform terraform
 
-eval "$(/home/yusufraji/zephyrproject/zephyr/zephyr-env.sh)"
+eval "$(source /home/yusufraji/zephyrproject/zephyr/zephyr-env.sh)"
