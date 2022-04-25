@@ -142,3 +142,5 @@ complete -C /usr/bin/terraform terraform
 if [ -f /home/yusufraji/zephyrproject/zephyr/zephyr-env.sh ];
 then
     source /home/yusufraji/zephyrproject/zephyr/zephyr-env.sh
+else
+    echo "zephyr-env file not found at /home/yusufraji/zephyrproject/zephyr/zephyr-env.sh"
