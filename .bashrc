@@ -145,3 +145,4 @@ then
 else
     echo "zephyr-env file not found at /home/yusufraji/zephyrproject/zephyr/zephyr-env.sh"
 fi
+. "$HOME/.cargo/env"
