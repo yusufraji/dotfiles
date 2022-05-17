@@ -121,7 +121,7 @@ if shopt -q login_shell; then
   export PATH="$PYENV_ROOT/bin:$PATH" 
  eval "$(pyenv init --path)" 
 fi
-eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 export PATH=~/.local/bin:"$PATH"
 export PATH=${HOME}/gn:"$PATH"
